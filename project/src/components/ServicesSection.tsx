@@ -3,40 +3,36 @@ import React from 'react';
 const ServicesSection: React.FC = () => {
   const services = [
     {
-      title: "First Box Service",
-      description: "Aenean vulputate massa sed neque consectetur, ac fringilla quam aliquet. Sed a enim nec eros tempor cursus at id libero.",
+      title: "Artistic Foundations & Skill Building",
+      description: "Dive into the core principles of art with our foundational courses. Whether you're new to art or looking to refine your basic skills, our expert instructors will guide you through essential techniques in drawing, painting, sculpting, and more.",
       buttonText: "Read More"
     },
     {
-      title: "Second Box Title",
-      description: "Pellentesque vitae urna ut nisi viverra tristique quis at dolor. In non sodales dolor, id egestas quam.",
+      title: "Creative Workshops & Advanced Techniques",
+      description: "Elevate your artistry with our specialized workshops and advanced technique classes. Explore diverse mediums, experiment with innovative styles, and master complex methods under the guidance of renowned artists.",
       buttonText: "Discover More"
     },
     {
-      title: "Third Title Box",
-      description: "Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.",
+      title: "Art Consultancy & Portfolio Development",
+      description: "For serious artists aiming for professional growth, our art consultancy and portfolio development services provide personalized guidance. From curating your best work to preparing for exhibitions and navigating the art market, we'll help you showcase your talent effectively.",
       buttonText: "Learn More"
     },
     {
-      title: "Fourth Service Box",
-      description: "Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.",
+      title: "Kids & Teen Art Programs",
+      description: "Ignite the spark of creativity in young minds with our engaging art programs designed specifically for children and teenagers. From fun introductory classes to advanced workshops, we foster artistic expression and skill development in a supportive and inspiring environment. Our curriculum encourages imagination, critical thinking, and a lifelong love for art. Join us to unlock your child's artistic potential.",
       buttonText: "Read More"
     },
     {
-      title: "Fifth Service Title",
-      description: "Curabitur aliquam eget tellus id porta. Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit.",
+      title: "Corporate & Team Building Art Experiences",
+      description: " Boost creativity, foster collaboration, and enhance team dynamics with our unique corporate art experiences. Art Factory offers tailored workshops for businesses looking for innovative team-building activities, creative retreats, or unique client engagement events. We provide all materials and expert guidance, ensuring a memorable and productive artistic journey for your team.",
       buttonText: "Discover More"
     },
     {
-      title: "Sixth Box Title",
-      description: "Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.",
+      title: "TitleCustom Artwork & Commissions",
+      description: " Bring your artistic visions to life with our custom artwork and commission service. Whether you're looking for a bespoke painting for your home, a unique sculpture for your office, or a special gift, our network of talented Art Factory artists is available to create personalized masterpieces that perfectly match your requirements and style. Consult with us to transform your ideas into reality.",
       buttonText: "Explore More"
     },
-    {
-      title: "Seventh Title Box",
-      description: "Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio.",
-      buttonText: "Read More"
-    }
+    
   ];
 
   return (
