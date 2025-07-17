@@ -6,5 +6,5 @@
 
 ### Our Services
 
+<img width="1902" height="701" alt="image" src="https://github.com/user-attachments/assets/86c6ab6f-f194-4a73-9ae1-1096ac121cf2" />
 
-<img width="834" height="697" alt="Screenshot 2025-07-17 195532" src="https://github.com/user-attachments/assets/43d20cbc-451a-4ae0-9176-05220a9b59d8" />
