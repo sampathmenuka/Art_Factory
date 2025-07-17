@@ -11,7 +11,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToSection }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-[#2a6f97] mb-6">
           Art Factory is free for YOU
         </h1>
-        <p className="text-xl text-white mb-12 max-w-2xl mx-auto">
+        <p className="text-xl text-[#2a6f97] mb-12 max-w-2xl mx-auto">
           Unlock your creative potential with our resources
         </p>
         
