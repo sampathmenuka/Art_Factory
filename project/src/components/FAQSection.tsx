@@ -14,24 +14,21 @@ const FAQSection: React.FC<FAQSectionProps> = ({ scrollToSection }) => {
 
   const faqs = [
     {
-      question: "First Common Question",
+      question: "How do I register for a class or workshop at Art Factory?",
       answer: [
-        "Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.",
-        "Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat."
+        "Registering for an Art Factory class or workshop is simple and convenient! You can browse our full catalog of offerings on our Classes & Workshops page. Once you've found a program that interests you, simply click on the Enroll Now or Book Your Spot button. You'll be guided through our secure online registration process."
       ]
     },
     {
-      question: "Second Question Answer",
+      question: "What is your cancellation and refund policy for classes?",
       answer: [
-        "Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi.",
-        "Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in."
+        "We understand that plans can change. For cancellations made at least 7 days prior to the start date of a class or workshop, you will receive a full refund or credit towards a future class. For cancellations made 3-6 days before the start date, a 50% refund or full credit will be issued. For cancellations made less than 3 days before the class, we regret that no refunds or credits can be issued. Please refer to our full Cancellation Policy for more details."
       ]
     },
     {
-      question: "Third Answer for you",
+      question: "Are there age restrictions for certain classes or programs?",
       answer: [
-        "Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut.",
-        "Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus."
+        "Yes, some of our classes and programs at Art Factory do have age recommendations or restrictions to ensure the best learning environment for all participants. Our Kids & Teen Art Programs are specifically designed for younger artists within specified age ranges (e.g., 5-8 years, 9-12 years, 13-17 years). "
       ]
     },
     {
