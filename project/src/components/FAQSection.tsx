@@ -59,7 +59,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ scrollToSection }) => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.
+            Welcome to the Art Factory FAQ section! Here, you'll find answers to common questions about our services, classes, workshops, and general operations. We aim to provide clarity and make your artistic journey with us as smooth as possible. Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.
           </p>
         </div>
 
@@ -70,11 +70,12 @@ const FAQSection: React.FC<FAQSectionProps> = ({ scrollToSection }) => {
           </h3>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.
-            </p>
-            <p>
-              Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non tincidunt dui. Lorem ipsum dolor sit amet.
-            </p>
+              Absolutely! At Art Factory, we believe that art is for everyone, regardless of skill level or prior experience. Many of our classes and workshops are specifically designed for beginners, providing foundational knowledge and a supportive environment to explore your creativity. Our instructors are experienced in guiding students from the ground up, ensuring a comfortable and enriching learning experience. We encourage experimentation and discovery, focusing on the process as much as the outcome. Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.</p>
+
+            <p> For more advanced artists, we also offer specialized workshops and masterclasses to help you refine existing skills or explore new techniques. Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non tincidunt dui. Lorem ipsum dolor sit amet.</p>
+
+              <p> If you can't find the answer you're looking for, or if you have specific questions about a class or service, please don't hesitate to reach out!
+              </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 pt-4">
               <p className="text-[#00a896] font-semibold">
                 Email: contact@artfactory.com
