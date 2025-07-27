@@ -32,23 +32,21 @@ const FAQSection: React.FC<FAQSectionProps> = ({ scrollToSection }) => {
       ]
     },
     {
-      question: "Fourth Question Asked",
+      question: "Do you offer private art lessons or customized workshops?",
       answer: [
-        "Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit.",
-        "Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra."
+        "Absolutely! Art Factory is delighted to offer private art lessons tailored to your individual goals and pace. Whether you're looking for one-on-one instruction in a specific medium, portfolio review, or just personalized guidance, our experienced instructors are available for private sessions. Duis vulputate porttitor urna sit amet pretium. You can also request customized workshops for groups or events, which can be designed to fit your specific interests and needs."
       ]
     },
     {
-      question: "Fifth Ever Question",
+      question: "What are the benefits of becoming an Art Factory member?",
       answer: [
-        "Quisque aliquet ipsum ut magna rhoncus, euismod lacinia elit rhoncus. Sed sapien elit, mollis ut ultricies quis.",
-        "Sed nec ex nec tortor fermentum sollicitudin id ut ligula. Ut sagittis rutrum lectus, non sagittis ante euismod."
+        "Becoming an Art Factory member unlocks a range of exclusive benefits designed to enhance your artistic journey. Members often receive discounts on classes and workshops, priority registration for popular programs, and special access to member-only events, open studio hours, or exclusive online content."
       ]
     },
     {
-      question: "Sixth Sense Question",
+      question: "Can I showcase my artwork at Art Factory?",
       answer: [
-        "Suspendisse potenti. Ut dapibus leo ut massa vulputate semper. Pellentesque maximus lorem sed elit imperdiet mattis."
+        "Art Factory is committed to supporting emerging and established artists within our community. We periodically host student exhibitions to showcase the incredible talent nurtured within our classes and workshops. Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti."
       ]
     }
   ];
