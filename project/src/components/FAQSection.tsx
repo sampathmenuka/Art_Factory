@@ -59,14 +59,14 @@ const FAQSection: React.FC<FAQSectionProps> = ({ scrollToSection }) => {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            Welcome to the Art Factory FAQ section! Here, you'll find answers to common questions about our services, classes, workshops, and general operations. We aim to provide clarity and make your artistic journey with us as smooth as possible. Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.
+            Welcome to the Art Factory FAQ section! Here, you'll find answers to common questions about our services, classes, workshops, and general operations. We aim to provide clarity and make your artistic journey with us as smooth as possible. 
           </p>
         </div>
 
         {/* Detailed FAQ Item */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12 border border-gray-100">
           <h3 className="text-2xl font-bold text-[#2a6f97] mb-6">
-            Class aptent taciti sociosqu ad litora torquent per conubia
+            Art for Everyone: Embracing Beginners at Art Factory
           </h3>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
