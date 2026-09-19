@@ -6,6 +6,7 @@ import ServicesSection from './components/ServicesSection';
 import FAQSection from './components/FAQSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import MobileNav from './components/MobileNav';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -24,6 +25,12 @@ function App() {
       const sections = ['home', 'about', 'services', 'faq', 'contact'];
       let currentSection = 'home';
 
+      // The contact section is too short to reach the top, so treat the page bottom as "contact"
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        setActiveSection('contact');
+        return;
+      }
+
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
@@ -38,12 +45,12 @@ function App() {
       setActiveSection(currentSection);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f4e4bc] to-[#e8c4a0]">
+    <div className="min-h-screen overflow-x-clip bg-gradient-to-br from-[#f4e4bc] to-[#e8c4a0]">
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       
       <main>
@@ -55,6 +62,7 @@ function App() {
       </main>
       
       <Footer />
+      <MobileNav activeSection={activeSection} scrollToSection={scrollToSection} />
     </div>
   );
 }

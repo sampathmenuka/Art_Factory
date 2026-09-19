@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply font-sans text-gray-700 antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    @apply bg-brand-gold text-brand-blue;
+  }
+}
+
+@layer components {
+  /* Primary call-to-action used across the site */
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-brand-gold font-bold text-brand-blue
+      shadow-[0_8px_20px_-6px_rgba(42,111,151,0.45)] transition-all duration-300
+      hover:-translate-y-0.5 hover:bg-brand-gold-light hover:shadow-[0_14px_28px_-8px_rgba(42,111,151,0.55)]
+      active:translate-y-0 active:scale-95
+      focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-brand-blue/30
+      disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0;
+  }
+
+  .btn-primary .btn-arrow {
+    @apply transition-transform duration-300;
+  }
+
+  .btn-primary:hover .btn-arrow {
+    @apply translate-x-1;
+  }
+
+  /* Small uppercase label above section headings */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-teal/30 bg-white/60 px-4 py-1.5
+      text-xs font-semibold uppercase tracking-[0.2em] text-brand-teal backdrop-blur-sm;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold leading-tight text-brand-blue md:text-5xl;
+  }
+
+  .card {
+    @apply rounded-3xl border border-white/70 bg-white/80 shadow-[0_10px_40px_-15px_rgba(42,111,151,0.3)] backdrop-blur-md;
+  }
+
+  /* Scroll reveal: elements start hidden and animate in once visible */
+  .reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition:
+      opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
